@@ -53,20 +53,35 @@ input{
     /* margin-top: 1rem; */
 }
 a{
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
 }
-a:hover{
-    background-color: #fffdfd;
+.button a:hover{
+    background-color: #ffffff;
     color: rgb(10, 14, 15);
     }
 
 button:hover{
     background-color: #fffdfd;
-color: rgb(10, 14, 15);
+    color: rgb(10, 14, 15);
 }
 h1{
     padding: 5px;
     background-color:#934E4E;
     color:rgb(7, 8, 8);
+}
+
+.signup a{
+    background-color: #934E4E;
+    margin: 30px;
+    padding: 10px;
+
+}
+
+.signup a:hover{
+    background-color: #934E4E;
+    color: white;
+}
+.signup{
+    background-color: #934E4E;
 }
