@@ -14,7 +14,7 @@ body{
 }
 .container{
     display: flex;
-    background-color: #934E4E;
+    background-color: #5dafcd;
     flex-direction: column;
     width: 300px;
     padding: 15px;
@@ -67,21 +67,34 @@ button:hover{
 }
 h1{
     padding: 5px;
-    background-color:#934E4E;
+    background-color:#5dafcd;
     color:rgb(7, 8, 8);
 }
 
 .signup a{
-    background-color: #934E4E;
+    background-color: #5dafcd;
     margin: 30px;
     padding: 10px;
 
 }
+@media only screen and (max-width: 500px){
+    .signup a{
+        background-color: #5dafcd;
+        margin: -5px;
+        padding: 10px;
+        font-size: 8px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    
+}
 
 .signup a:hover{
-    background-color: #934E4E;
+    background-color: #5dafcd;
     color: white;
 }
 .signup{
-    background-color: #934E4E;
+    background-color: #5dafcd;
 }
